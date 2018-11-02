@@ -1,0 +1,45 @@
+{
+    "status":"OK",
+    "data":{
+        "id":"MENU_MAIN",
+        "accLvl":0,
+        "type":"MENU_MAIN",
+        "dbId":1,
+        "data":[
+                {
+                "id":"11xx",
+                "accLvl":0,
+                "label":"Menu item with children",
+                "children":[
+                                {
+                                "id":"22xx",
+                                "accLvl":0,
+                                "label":"Children 1",
+                                "linkType":"URL",
+                                "linkOpen":"EXT",
+                                "linkValue":"https://www.spryflash.com/support",
+                                "dynamic":"some dynamic not required field"
+                                },
+                                {
+                                "id":"22yy",
+                                "accLvl":0,
+                                "label":"Children 2",
+                                "linkType":"URL",
+                                "linkOpen":"INT",
+                                "linkValue":"https://www.spryflash.com/support",
+                                "dynamic":"some dynamic not required field"
+                                }
+                            ]
+                },
+                {
+                "id":"22yy",
+                "accLvl":0,
+                "label":"Menu item without children",
+                "linkType":"SCREEN",
+                "linkValue":"SOME_SCREEN_ID",
+                "defSel":1,
+                "dynamic":"some dynamic not required field"
+                }
+                ]
+    }
+}
